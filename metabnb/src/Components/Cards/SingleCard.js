@@ -1,4 +1,4 @@
-import { Box, CardContent, Rating, Typography } from "@mui/material";
+import { Box, Rating, Typography } from "@mui/material";
 import React from "react";
 import BeachHouse from "../../Images/BeachHouse.png";
 
