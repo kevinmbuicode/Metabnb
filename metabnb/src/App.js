@@ -1,6 +1,7 @@
 import React from "react";
 import BannerMain from "./Components/Common/Banner/BannerMain";
 import Navbar from "./Components/Common/Navbar/Navbar";
+import Content from "./Components/Content/Content";
 import Label from "./Components/Label/Label";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <BannerMain/>
       <Label/>
+      <Content/>
     </div>
   );
 }
