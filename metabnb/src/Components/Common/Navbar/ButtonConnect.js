@@ -75,7 +75,11 @@ const ButtonConnect = () => {
               alignItems: "center",
               marginTop: 1,
               height: 60,
-              paddingLeft: 2
+              paddingLeft: 2,
+              "&:hover": {
+                backgroundColor: "#9A1663",
+                color: "gold",
+              },
             }}
           >
             <img src={MetaMask} alt="Fox" height="50" width="50" />
@@ -91,7 +95,11 @@ const ButtonConnect = () => {
               alignItems: "center",
               marginTop: 1,
               height: 60,
-              paddingLeft: 2
+              paddingLeft: 2,
+              "&:hover": {
+                backgroundColor: "#9A1663",
+                color: "gold",
+              },
             }}
           >
             <img src={WalletConnect} alt="Fox" height="50" width="50"/>
