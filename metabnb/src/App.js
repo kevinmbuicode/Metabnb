@@ -1,19 +1,20 @@
 import React from "react";
-import BannerMain from "./Components/Common/Banner/BannerMain";
 import Footer from "./Components/Common/Footer/Footer";
 import Navbar from "./Components/Common/Navbar/Navbar";
-import Content from "./Components/Content/Content";
-import DisplayBanner from "./Components/DisplayBanner/DisplayBanner";
-import Label from "./Components/Label/Label";
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from "./Pages/Home";
+import Places from "./Pages/Places";
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Navbar/>
-      <BannerMain/>
-      <Label/>
-      <Content/>
-      <DisplayBanner/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="places" element={<Places/>}/>
+      </Routes>
+      </BrowserRouter>
       <Footer/>
     </div>
   );
