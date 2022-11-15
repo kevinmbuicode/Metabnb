@@ -1,6 +1,6 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
-import DisplaySVG from "../../Images/SummerHouse.jpeg";
+import DisplaySVG from "../../Images/CastleHouse.svg";
 
 const DisplayBanner = () => {
 

@@ -1,29 +1,32 @@
 import { Box } from "@mui/material";
 import React from "react";
-import SummerHouse from "../../../Images/SummerHouse.jpeg";
-import "./BannerSVG.css";
+import BeachShop from "../../../Images/BeachShop.svg";
+import CastleHouse from "../../../Images/CastleHouse.svg";
+import CandyHouse from "../../../Images/CandyHouse.svg";
+import MetaSuit from "../../../Images/MetaSuit.svg";
+// import "./BannerSVG.css";
 
 const BannerSVG = () => {
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex"}}>
       <Box
         sx={{
           display: "flex",
           flexDirection: "column",
-          gap: 2,
+          gap: 1,
           marginTop: 9,
-          width: 250,
+          marginLeft: 3,
           marginRight: 1,
         }}
       >
-        <img src={SummerHouse} alt="SummerHouse" height="165" width="250" />
-        <img src={SummerHouse} alt="SummerHouse" height="165" width="250" />
+        <img src={MetaSuit} alt="SummerHouse" height="165" />
+        <img src={CandyHouse} alt="SummerHouse" height="165" />
       </Box>
       <Box
-        sx={{ width: 250, display: "flex", flexDirection: "column", gap: 2 }}
+        sx={{  display: "flex", flexDirection: "column", gap: 1 }}
       >
-        <img src={SummerHouse} alt="SummerHouse" height="165" width="250" />
-        <img src={SummerHouse} alt="SummerHouse" height="165" width="250" />
+        <img src={BeachShop} alt="SummerHouse" height="165" />
+        <img src={CastleHouse} alt="SummerHouse" height="165" />
       </Box>
     </Box>
   );

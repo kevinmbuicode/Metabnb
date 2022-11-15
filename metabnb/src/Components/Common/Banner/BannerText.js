@@ -25,20 +25,27 @@ const BannerText = () => {
         display: "flex",
         flexDirection: "column",
         marginTop: 4,
+        // border: "2px solid pink",
+        width: "45%",
+        gap: 2,
+        marginLeft: 6
       }}
     >
-      <Box sx={{ marginBottom: 2}}>  
-      <Typography variant="h4">
-        Rent a Place away from Home in the Metaverse
-      </Typography>
+      <Box sx={{ marginBottom: 2 }}>
+        <Typography variant="h3" fontWeight={700}>
+          Rent a <span style={{ color: "#A02279" }}>Place</span> away from{" "}
+          <span style={{ color: "#A02279" }}>Home</span> in the{" "}
+          <span style={{ color: "#A02279" }}>Metaverse</span>
+        </Typography>
       </Box>
-      <Box sx={{ marginBottom: 2}}>
-      <Typography variant="p">
-        We provide you access to luxury and affordable houses in the metaverse,
-        get a chance to turn your imagination to reality at your comfort zone
-      </Typography>
+      <Box sx={{ marginBottom: 2 }}>
+        <Typography variant="h5">
+          We provide you access to luxury and affordable houses in the
+          metaverse, get a chance to turn your imagination to reality at your
+          comfort zone
+        </Typography>
       </Box>
-      <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex", marginTop: 4 }}>
         <TextField
           id="outlined-search"
           label="Search for location"

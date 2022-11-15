@@ -1,6 +1,6 @@
 import { Box, Rating, Typography } from "@mui/material";
 import React from "react";
-import BeachHouse from "../../Images/BeachHouse.png";
+import BeachHouse from "../../Images/CastleHouse.svg";
 
 const SingleCard = () => {
   return (
