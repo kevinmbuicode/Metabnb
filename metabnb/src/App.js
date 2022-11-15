@@ -7,7 +7,7 @@ import Places from "./Pages/Places";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
       <Navbar/>
       <Routes>

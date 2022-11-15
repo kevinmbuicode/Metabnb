@@ -8,6 +8,7 @@ const BannerText = () => {
     padding: 10,
     paddingLeft: 20,
     paddingRight: 20,
+    height: 40,
     cursor: "pointer",
     backgroundColor: "#A02279",
     fontWeight: 700,
@@ -33,7 +34,7 @@ const BannerText = () => {
       </Box>
       <Box sx={{ marginBottom: 2}}>
       <Typography variant="p">
-        we provide you access to luxury and affordable houses in the metaverse,
+        We provide you access to luxury and affordable houses in the metaverse,
         get a chance to turn your imagination to reality at your comfort zone
       </Typography>
       </Box>
