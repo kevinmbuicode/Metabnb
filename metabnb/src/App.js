@@ -5,10 +5,11 @@ import Navbar from "./Components/Common/Navbar/Navbar";
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from "./Pages/Home";
 import Places from "./Pages/Places";
+import { Box } from "@mui/material";
 
 function App() {
   return (
-    <div>
+    <Box>
       <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -17,7 +18,7 @@ function App() {
       </Routes>
       </BrowserRouter>
       <Footer/>
-    </div>
+    </Box>
   );
 }
 

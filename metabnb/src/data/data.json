@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Desert King",
+    "price": "1MBT",
+    "distance": 2345,
+    "duration": "1",
+    "icon": "images/Desert.svg"
+  },
+  {
+    "id": 2,
+    "name": "Urban House",
+    "price": "4MBT",
+    "distance": 6550,
+    "duration": "3",
+    "icon": "images/Urban.svg"
+  },
+  {
+    "id": 3,
+    "name": "Holiday Resort",
+    "price": "7MBT",
+    "distance": 1000,
+    "duration": "4",
+    "icon": "images/Resort.svg"
+  },
+  {
+    "id": 4,
+    "name": "Palace House",
+    "price": "9MBT",
+    "distance": 2000,
+    "duration": "2",
+    "icon": "images/Palace.svg"
+  },
+  {
+    "id": 5,
+    "name": "Honeymoon House",
+    "price": "6MBT",
+    "distance": 3349,
+    "duration": "1",
+    "icon": "images/King.svg"
+  },
+  {
+    "id": 6,
+    "name": "Island House",
+    "price": "3MBT",
+    "distance": 1309,
+    "duration": "1",
+    "icon": "images/Castle.svg"
+  },
+  {
+    "id": 7,
+    "name": "Castle Rock",
+    "price": "5MBT",
+    "distance": 1238,
+    "duration": "1",
+    "icon": "images/Castle.svg"
+  },
+  {
+    "id": 8,
+    "name": "City House",
+    "price": "10MBT",
+    "distance": 3342,
+    "duration": "1",
+    "icon": "images/CityHouse.svg"
+  }
+]
