@@ -1,7 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import OpenSea from "../../Images/OpenSea.png";
-import Metamask from "../../Images/MetaMask_Fox.svg.png";
+import OpenSea from "../../Images/OpenSea.svg";
+import Metamask from "../../Images/Metamask.svg";
+import MBToken from "../../Images/MBToken.svg";
 
 const Label = () => {
   return (
@@ -15,24 +16,9 @@ const Label = () => {
         height: 60,
       }}
     >
-      <Box sx={{ display: "flex", justifyItems: "center" }}>
-        <img src={Metamask} alt="Metamask" height="60" width="55" />
-        <Typography variant="h4" color="white">
-          MBToken
-        </Typography>
-      </Box>
-      <Box sx={{ display: "flex" }}>
-        <img src={Metamask} alt="Metamask" height="60" width="55" />
-        <Typography variant="h4" color="white">
-          Metamask
-        </Typography>
-      </Box>
-      <Box sx={{ display: "flex" }}>
-        <img src={OpenSea} alt="OpenSea" height="55" width="55" />
-        <Typography variant="h4" color="white">
-          OpenSea
-        </Typography>
-      </Box>
+        <img src={MBToken} alt="Metamask" height="100%" width="155" />
+        <img src={Metamask} alt="Metamask" height="100%" width="175" />
+        <img src={OpenSea} alt="OpenSea" height="100%" width="155" />
     </Box>
   );
 };

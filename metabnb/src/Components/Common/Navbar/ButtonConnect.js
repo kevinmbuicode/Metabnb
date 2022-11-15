@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Button, styled, Modal, Typography } from "@mui/material";
 import MetaMask from "../../../Images/MetaMask_Fox.svg.png";
-import WalletConnect from "../../../Images/WalletConnect.png";
+import WalletConnect from "../../../Images/WalletConnect.svg";
 
 const style = {
   position: "absolute",
@@ -26,6 +26,7 @@ const ButtonConnect = () => {
     border: "1px solid #A02279",
     borderRadius: 5,
     padding: 10,
+    height: 45,
     paddingLeft: 20,
     paddingRight: 20,
     cursor: "pointer",
