@@ -1,6 +1,6 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
-import DisplaySVG from "../../Images/CastleHouse.svg";
+import ThreeSVGS from "../../Images/DisplayBanner.svg";
 
 const DisplayBanner = () => {
 
@@ -26,23 +26,26 @@ const DisplayBanner = () => {
       sx={{
         display: "flex",
         backgroundColor: "#A02279",
-        height: 600,
+        height: "90vh",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
       <Box
         sx={{
-          width: "50%",
-          border: "4px solid black",
+          width: "25%",
+          // border: "4px solid black",
           display: "flex",
           flexDirection: "column",
+          marginLeft: 3,
+          marginRight: 4,
+          gap: 4
         }}
       >
-        <Typography variant="h4" color="white" fontWeight={700}>
+        <Typography variant="h3" color="white" fontWeight={700}>
           Metabnb NFTs
         </Typography>
-        <Typography variant="p" color="white">
+        <Typography variant="p" color="white" fontWeight={500}>
           Discover our NFT gift card collection. Loyal customers get amazing
           gift cards which are traded as NFTs. These NFTs give our customers
           loads of exclusive services
@@ -51,10 +54,8 @@ const DisplayBanner = () => {
           <LearnButton variant="contained">Learn More</LearnButton>
         </Box>
       </Box>
-      <Box sx={{ width: "50%", border: "4px solid black" }}>
-        <img src={DisplaySVG} alt="svg_images" height="150" width="150" />
-        <img src={DisplaySVG} alt="svg_images" height="150" width="150" />
-        <img src={DisplaySVG} alt="svg_images" height="150" width="150" />
+      <Box sx={{ width: "50%", display: "flex",justifyContent: "center" }}>
+        <img src={ThreeSVGS} alt="twisted_houses" height="600"/>
       </Box>
     </Box>
   );
