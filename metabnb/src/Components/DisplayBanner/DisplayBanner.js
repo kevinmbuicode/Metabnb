@@ -34,7 +34,6 @@ const DisplayBanner = () => {
       <Box
         sx={{
           width: "25%",
-          // border: "4px solid black",
           display: "flex",
           flexDirection: "column",
           marginLeft: 3,
