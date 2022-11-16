@@ -52,7 +52,7 @@
     "name": "Castle Rock",
     "price": "5MBT",
     "distance": 1238,
-    "duration": "1",
+    "duration": "2",
     "icon": "images/Castle.svg"
   },
   {
@@ -60,7 +60,7 @@
     "name": "City House",
     "price": "10MBT",
     "distance": 3342,
-    "duration": "1",
+    "duration": "3",
     "icon": "images/CityHouse.svg"
   }
 ]
