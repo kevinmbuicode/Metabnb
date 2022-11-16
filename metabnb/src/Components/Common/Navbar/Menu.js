@@ -4,7 +4,6 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import ButtonConnect from "./ButtonConnect";
-import DirectoryTabs from "./DirectoryTabs";
 import { Link } from "react-router-dom";
 import { Typography } from "@mui/material";
 
