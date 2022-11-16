@@ -28,7 +28,7 @@ const SingleCard = ({items}) => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Typography fontSize={15}>{distance}km away</Typography>
-              <Typography fontSize={15}>available for {duration} weeks</Typography>
+              <Typography fontSize={15}>available for {duration} {duration > 1 ? "weeks": "week"}</Typography>
             </Box>
             <Box>
               <Rating name="read-only" value="5" readOnly color="red" size="small" />
