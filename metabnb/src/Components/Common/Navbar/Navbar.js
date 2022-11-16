@@ -9,14 +9,17 @@ import LongMenu from "./Menu";
 const Navbar = () => {
 
   return (
+    <>
     <Box sx={{ display: {xs: "none", sm: "flex"}, justifyContent: "space-between" }}>
       <Title />
       <DirectoryTabs />
       <ButtonConnect />
-      <Box sx={{ display: {xs: "!flex", sm: "none"}}}>
+    </Box>
+      <Box sx={{ display: {xs: "flex", sm: "none"}, justifyContent: "space-between"}}>
+        <Title/>
         <LongMenu/>
       </Box>
-    </Box>
+    </>
     
   );
 };
