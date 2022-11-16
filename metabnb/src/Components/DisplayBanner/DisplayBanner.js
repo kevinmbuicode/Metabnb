@@ -26,6 +26,7 @@ const DisplayBanner = () => {
       sx={{
         display: "flex",
         backgroundColor: "#A02279",
+        flexDirection: {xs: "column", sm: "row"},
         height: "90vh",
         justifyContent: "center",
         alignItems: "center",
@@ -33,11 +34,11 @@ const DisplayBanner = () => {
     >
       <Box
         sx={{
-          width: "25%",
+          width: {xs: "100%", sm: "25%"},
           display: "flex",
           flexDirection: "column",
-          marginLeft: 3,
-          marginRight: 4,
+          marginLeft: {xs: 2, sm: 3},
+          marginRight: {xs: 1, sm: 4},
           gap: 4
         }}
       >
@@ -53,8 +54,8 @@ const DisplayBanner = () => {
           <LearnButton variant="contained">Learn More</LearnButton>
         </Box>
       </Box>
-      <Box sx={{ width: "50%", display: "flex",justifyContent: "center" }}>
-        <img src={ThreeSVGS} alt="twisted_houses" height="600"/>
+      <Box sx={{ width: {xs: "100%", sm: "50%"}, display: "flex",justifyContent: "center" }}>
+        <img src={ThreeSVGS} alt="twisted_houses" width="95%"/>
       </Box>
     </Box>
   );

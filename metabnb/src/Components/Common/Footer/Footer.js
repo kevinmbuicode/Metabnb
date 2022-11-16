@@ -12,17 +12,17 @@ const Footer = () => {
         display: "flex",
         backgroundColor: "#1D1D1E",
         color: "#F7F7F7",
-        height: 350,
+        height: {xs: 350, sm: 350},
         justifyContent: "space-between",
-        padding: 4,
+        padding: {xs: 0, sm: 4},
       }}
     >
       <Box
-        sx={{ display: "flex", flexDirection: "column", gap: 6, marginTop: 4 }}
+        sx={{ display: "flex", flexDirection: "column", gap: {xs: 2, sm : 6}, marginTop: 4 }}
       >
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <img src={VectorFooter} alt="Logo" height="38" />
-          <Typography variant="h4" fontWeight="bold">
+          <Typography variant="h4" sx={{ fontWeight: {xs: "300", sm: "bold"}}}>
             Metabnb
           </Typography>
         </Box>
@@ -31,7 +31,7 @@ const Footer = () => {
           <InstagramIcon />
           <TwitterIcon />
         </Box>
-        <p>&copy; 2022 Metabnb</p>
+        <Typography>&copy; 2022 Metabnb</Typography>
       </Box>
       <Box sx={{ display: "flex", flexDirection: "column", marginTop: 4 }}>
         <Typography variant="h6" fontWeight="bold">

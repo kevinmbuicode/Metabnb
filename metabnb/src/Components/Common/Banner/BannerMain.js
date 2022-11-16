@@ -10,7 +10,7 @@ const BannerMain = () => {
         display: "flex",
         flexDirection: { xs: "column", sm: "row" },
         marginTop: {xs: 2, sm: 6},
-        margin: {xs: 3, sm: 6},
+        margin: {xs: 1, sm: 6},
         justifyContent: "space-between"
       }}
     >

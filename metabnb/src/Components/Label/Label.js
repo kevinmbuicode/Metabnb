@@ -9,11 +9,12 @@ const Label = () => {
     <Box
       sx={{
         display: "flex",
+        flexDirection: {xs: "column", sm: "row"},
         justifyContent: "space-around",
         alignItems: "center",
         width: "100%",
         backgroundColor: "#A02279",
-        height: 60,
+        height: {xs: "70", sm: "8vh"},
       }}
     >
         <img src={MBToken} alt="Metamask" height="100%" width="155" />

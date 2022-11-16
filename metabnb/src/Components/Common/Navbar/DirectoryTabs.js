@@ -6,7 +6,7 @@ const DirectoryTabs = () => {
   return (
     <Box
       flex={2}
-      sx={{ display: "flex", justifyContent: "space-around", marginTop: 2 }}
+      sx={{ display: {xs: "none", sm: "flex"}, justifyContent: "space-around", marginTop: 2 }}
     >
       <Link to="/" style={{ textDecoration: "none"}}>
         <Typography sx={{ color: "black", cursor: "pointer"}}>Home</Typography>

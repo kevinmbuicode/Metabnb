@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Title = () => {
   return (
-    <Box flex={1} sx={{ marginLeft: 4, alignItems: "center", display: "flex" }}>
+    <Box flex={1} sx={{ marginLeft: {xs: 1, sm: 4}, alignItems: "center", display: "flex" }}>
       <Link to="/">
         <Box sx={{ marginLeft: 4, alignItems: "center", display: "flex" }}>
           <img src={TitleLogo} alt="Logo" height="35" width="50" />

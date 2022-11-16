@@ -26,9 +26,9 @@ const BannerText = () => {
         flexDirection: "column",
         marginTop: 4,
         // border: "2px solid pink",
-        width: "45%",
+        width: {xs: "100%", sm: "45%"},
         gap: 2,
-        marginLeft: 6
+        marginLeft: {xs: 0, sm: 6}
       }}
     >
       <Box sx={{ marginBottom: 2 }}>

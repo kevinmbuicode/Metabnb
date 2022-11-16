@@ -9,7 +9,7 @@ import { Box } from "@mui/material";
 
 function App() {
   return (
-    <Box sx={{ border: "2px solid black", width: "100%"}}>
+    <Box sx={{ width: "100%"}}>
       <BrowserRouter>
       <Navbar/>
       <Routes>
